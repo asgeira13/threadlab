@@ -1,0 +1,122 @@
+5 20 20
+[TL]: Starting up the Traffic Controllatron with 20 vehicles and 20 pedestrians.
+[TL]: wait 0 0 queue_nr 1
+[TL]: cross pedestrian 0 start nr 0
+[TL]: wait 3 0 queue_nr 1
+[TL]: wait 0 1 queue_nr 2
+[TL]: wait 3 1 queue_nr 2
+[TL]: wait 0 2 queue_nr 3
+[TL]: wait 3 2 queue_nr 3
+[TL]: cross pedestrian 0 end nr 0
+[TL]: cross vehicle 3 start nr 0
+[TL]: wait 3 3 queue_nr 4
+[TL]: wait 0 3 queue_nr 4
+[TL]: wait 0 4 queue_nr 5
+[TL]: wait 3 4 queue_nr 5
+[TL]: cross vehicle 3 end nr 0
+[TL]: cross pedestrian 0 start nr 1
+[TL]: wait 0 5 queue_nr 6
+[TL]: wait 3 5 queue_nr 6
+[TL]: wait 0 6 queue_nr 7
+[TL]: wait 3 6 queue_nr 7
+[TL]: cross pedestrian 0 end nr 1
+[TL]: cross vehicle 3 start nr 1
+[TL]: wait 0 7 queue_nr 8
+[TL]: wait 3 7 queue_nr 8
+[TL]: wait 3 8 queue_nr 9
+[TL]: wait 0 8 queue_nr 9
+[TL]: cross vehicle 3 end nr 1
+[TL]: cross pedestrian 0 start nr 2
+[TL]: wait 0 9 queue_nr 10
+[TL]: wait 3 9 queue_nr 10
+[TL]: wait 0 10 queue_nr 11
+[TL]: wait 3 10 queue_nr 11
+[TL]: wait 3 11 queue_nr 12
+[TL]: wait 0 11 queue_nr 12
+[TL]: cross pedestrian 0 end nr 2
+[TL]: cross vehicle 3 start nr 2
+[TL]: wait 0 12 queue_nr 13
+[TL]: wait 3 12 queue_nr 13
+[TL]: wait 0 13 queue_nr 14
+[TL]: wait 3 13 queue_nr 14
+[TL]: cross vehicle 3 end nr 2
+[TL]: cross vehicle 3 start nr 3
+[TL]: wait 0 14 queue_nr 15
+[TL]: wait 3 14 queue_nr 15
+[TL]: wait 0 15 queue_nr 16
+[TL]: wait 3 15 queue_nr 16
+[TL]: cross vehicle 3 end nr 3
+[TL]: cross pedestrian 0 start nr 3
+[TL]: wait 0 16 queue_nr 17
+[TL]: wait 3 16 queue_nr 17
+[TL]: wait 0 17 queue_nr 18
+[TL]: wait 3 17 queue_nr 18
+[TL]: wait 0 18 queue_nr 19
+[TL]: wait 3 18 queue_nr 19
+[TL]: wait 0 19 queue_nr 20
+[TL]: wait 3 19 queue_nr 20
+[TL]: cross pedestrian 0 end nr 3
+[TL]: cross pedestrian 0 start nr 4
+[TL]: cross pedestrian 0 end nr 4
+[TL]: cross vehicle 3 start nr 4
+[TL]: cross vehicle 3 end nr 4
+[TL]: cross pedestrian 0 start nr 5
+[TL]: cross pedestrian 0 end nr 5
+[TL]: cross vehicle 3 start nr 5
+[TL]: cross vehicle 3 end nr 5
+[TL]: cross pedestrian 0 start nr 6
+[TL]: cross pedestrian 0 end nr 6
+[TL]: cross vehicle 3 start nr 6
+[TL]: cross vehicle 3 end nr 6
+[TL]: cross pedestrian 0 start nr 7
+[TL]: cross pedestrian 0 end nr 7
+[TL]: cross vehicle 3 start nr 7
+[TL]: cross vehicle 3 end nr 7
+[TL]: cross vehicle 3 start nr 8
+[TL]: cross vehicle 3 end nr 8
+[TL]: cross pedestrian 0 start nr 8
+[TL]: cross pedestrian 0 end nr 8
+[TL]: cross pedestrian 0 start nr 9
+[TL]: cross pedestrian 0 end nr 9
+[TL]: cross vehicle 3 start nr 9
+[TL]: cross vehicle 3 end nr 9
+[TL]: cross pedestrian 0 start nr 10
+[TL]: cross pedestrian 0 end nr 10
+[TL]: cross vehicle 3 start nr 10
+[TL]: cross vehicle 3 end nr 10
+[TL]: cross vehicle 3 start nr 11
+[TL]: cross vehicle 3 end nr 11
+[TL]: cross pedestrian 0 start nr 11
+[TL]: cross pedestrian 0 end nr 11
+[TL]: cross pedestrian 0 start nr 12
+[TL]: cross pedestrian 0 end nr 12
+[TL]: cross vehicle 3 start nr 12
+[TL]: cross vehicle 3 end nr 12
+[TL]: cross pedestrian 0 start nr 13
+[TL]: cross pedestrian 0 end nr 13
+[TL]: cross vehicle 3 start nr 13
+[TL]: cross vehicle 3 end nr 13
+[TL]: cross pedestrian 0 start nr 14
+[TL]: cross pedestrian 0 end nr 14
+[TL]: cross vehicle 3 start nr 14
+[TL]: cross vehicle 3 end nr 14
+[TL]: cross pedestrian 0 start nr 15
+[TL]: cross pedestrian 0 end nr 15
+[TL]: cross vehicle 3 start nr 15
+[TL]: cross vehicle 3 end nr 15
+[TL]: cross pedestrian 0 start nr 16
+[TL]: cross pedestrian 0 end nr 16
+[TL]: cross vehicle 3 start nr 16
+[TL]: cross vehicle 3 end nr 16
+[TL]: cross pedestrian 0 start nr 17
+[TL]: cross pedestrian 0 end nr 17
+[TL]: cross vehicle 3 start nr 17
+[TL]: cross vehicle 3 end nr 17
+[TL]: cross pedestrian 0 start nr 18
+[TL]: cross pedestrian 0 end nr 18
+[TL]: cross vehicle 3 start nr 18
+[TL]: cross vehicle 3 end nr 18
+[TL]: cross pedestrian 0 start nr 19
+[TL]: cross pedestrian 0 end nr 19
+[TL]: cross vehicle 3 start nr 19
+[TL]: cross vehicle 3 end nr 19

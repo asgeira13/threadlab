@@ -1,0 +1,12 @@
+NOTE TO STUDENTS: Before you do anything else, please
+provide your team information in below.
+
+ Note: This comment is parsed. Please do not change the
+       Format!
+
+ === User information ===
+ Group: 
+ User 1: 
+ SSN: X
+ User 2: 
+ SSN: X

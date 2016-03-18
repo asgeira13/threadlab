@@ -1,0 +1,62 @@
+5 10 10
+[TL]: Starting up Traffic Controllatron with 10 vehicles and 10 pedestrians.
+[TL]: wait 1 4143957760 queue_nr 1
+[TL]: wait 1 4127172352 queue_nr 2
+[TL]: wait 1 4135565056 queue_nr 3
+[TL]: wait 1 4118779648 queue_nr 4
+[TL]: wait 3 4110386944 queue_nr 1
+[TL]: wait 1 4101994240 queue_nr 5
+[TL]: wait 1 4085208832 queue_nr 6
+[TL]: wait 1 4076816128 queue_nr 7
+[TL]: wait 0 4060030720 queue_nr 1
+[TL]: wait 2 4051638016 queue_nr 1
+[TL]: wait 3 4068423424 queue_nr 2
+[TL]: wait 2 4026459904 queue_nr 2
+[TL]: wait 2 4043245312 queue_nr 3
+[TL]: wait 0 4018067200 queue_nr 2
+[TL]: wait 0 4009674496 queue_nr 3
+[TL]: wait 0 4034852608 queue_nr 4
+[TL]: wait 2 4001281792 queue_nr 4
+[TL]: wait 0 3984496384 queue_nr 5
+[TL]: wait 3 4093601536 queue_nr 3
+[TL]: wait 0 3992889088 queue_nr 6
+[TL]: cross vehicle 1 start nr 4143957760
+[TL]: cross vehicle 1 start nr 4127172352
+[TL]: cross vehicle 1 end nr 4143957760
+[TL]: cross vehicle 1 end nr 4127172352
+[TL]: cross vehicle 1 start nr 4085208832
+[TL]: cross vehicle 1 start nr 4118779648
+[TL]: cross vehicle 1 start nr 4101994240
+[TL]: cross pedestrian 0 start nr 4018067200
+[TL]: cross vehicle 1 start nr 4135565056
+[TL]: cross vehicle 1 start nr 4076816128
+[TL]: cross pedestrian 0 start nr 4034852608
+[TL]: cross pedestrian 0 end nr 4034852608
+[TL]: cross pedestrian 0 start nr 3984496384
+[TL]: cross pedestrian 0 start nr 4009674496
+[TL]: cross pedestrian 0 start nr 4060030720
+[TL]: cross pedestrian 0 end nr 4060030720
+[TL]: cross vehicle 1 end nr 4085208832
+[TL]: cross pedestrian 0 end nr 4018067200
+[TL]: cross vehicle 1 end nr 4101994240
+[TL]: cross vehicle 1 end nr 4118779648
+[TL]: cross vehicle 1 end nr 4135565056
+[TL]: cross pedestrian 0 end nr 4009674496
+[TL]: cross vehicle 1 end nr 4076816128
+[TL]: cross pedestrian 0 end nr 3984496384
+[TL]: cross pedestrian 0 start nr 3992889088
+[TL]: cross pedestrian 0 end nr 3992889088
+[TL]: cross vehicle 3 start nr 4093601536
+[TL]: cross vehicle 3 start nr 4110386944
+[TL]: cross pedestrian 2 start nr 4051638016
+[TL]: cross pedestrian 2 end nr 4051638016
+[TL]: cross pedestrian 2 start nr 4026459904
+[TL]: cross vehicle 3 start nr 4068423424
+[TL]: cross pedestrian 2 start nr 4043245312
+[TL]: cross pedestrian 2 end nr 4043245312
+[TL]: cross pedestrian 2 start nr 4001281792
+[TL]: cross pedestrian 2 end nr 4026459904
+[TL]: cross vehicle 3 end nr 4068423424
+[TL]: cross vehicle 3 end nr 4093601536
+[TL]: cross vehicle 3 end nr 4110386944
+[TL]: cross pedestrian 2 end nr 4001281792

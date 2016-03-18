@@ -1,0 +1,88 @@
+5 15 15
+[TL]: Starting up Traffic Controllatron with 15 vehicles and 15 pedestrians.
+[TL]: wait 3 4143957760 queue_nr 1
+[TL]: wait 3 4135565056 queue_nr 2
+[TL]: cross vehicle 3 start nr 4143957760
+[TL]: cross vehicle 3 start nr 4135565056
+[TL]: wait 3 4118779648 queue_nr 3
+[TL]: wait 1 4127172352 queue_nr 1
+[TL]: wait 3 4110386944 queue_nr 4
+[TL]: wait 3 4101994240 queue_nr 5
+[TL]: wait 3 4093601536 queue_nr 6
+[TL]: wait 1 4085208832 queue_nr 2
+[TL]: wait 1 4076816128 queue_nr 3
+[TL]: wait 3 4068423424 queue_nr 7
+[TL]: wait 1 4060030720 queue_nr 4
+[TL]: wait 3 4043245312 queue_nr 8
+[TL]: wait 1 4034852608 queue_nr 5
+[TL]: wait 1 4051638016 queue_nr 6
+[TL]: wait 2 4018067200 queue_nr 1
+[TL]: wait 1 4026459904 queue_nr 7
+[TL]: wait 0 3992889088 queue_nr 1
+[TL]: wait 2 3984496384 queue_nr 2
+[TL]: wait 2 4001281792 queue_nr 3
+[TL]: wait 0 4009674496 queue_nr 2
+[TL]: wait 0 3976103680 queue_nr 3
+[TL]: wait 2 3967710976 queue_nr 4
+[TL]: wait 2 3959318272 queue_nr 5
+[TL]: wait 0 3942532864 queue_nr 4
+[TL]: wait 2 3934140160 queue_nr 6
+[TL]: wait 0 3925747456 queue_nr 5
+[TL]: wait 2 3917354752 queue_nr 7
+[TL]: wait 2 3908962048 queue_nr 8
+[TL]: wait 2 3950925568 queue_nr 9
+[TL]: wait 2 3900569344 queue_nr 10
+[TL]: cross vehicle 3 end nr 4135565056
+[TL]: cross vehicle 3 end nr 4143957760
+[TL]: cross pedestrian 0 start nr 3992889088
+[TL]: cross vehicle 1 start nr 4127172352
+[TL]: cross vehicle 1 start nr 4085208832
+[TL]: cross pedestrian 0 start nr 3976103680
+[TL]: cross pedestrian 0 end nr 3976103680
+[TL]: cross vehicle 1 start nr 4076816128
+[TL]: cross pedestrian 0 start nr 3925747456
+[TL]: cross vehicle 1 start nr 4060030720
+[TL]: cross vehicle 1 start nr 4034852608
+[TL]: cross vehicle 1 end nr 4060030720
+[TL]: cross pedestrian 0 start nr 3942532864
+[TL]: cross pedestrian 0 end nr 3942532864
+[TL]: cross vehicle 1 end nr 4085208832
+[TL]: cross vehicle 1 end nr 4076816128
+[TL]: cross vehicle 1 end nr 4034852608
+[TL]: cross pedestrian 0 end nr 3992889088
+[TL]: cross pedestrian 0 end nr 3925747456
+[TL]: cross vehicle 1 end nr 4127172352
+[TL]: cross vehicle 3 start nr 4118779648
+[TL]: cross pedestrian 2 start nr 3959318272
+[TL]: cross vehicle 3 start nr 4068423424
+[TL]: cross vehicle 3 start nr 4093601536
+[TL]: cross pedestrian 2 start nr 4018067200
+[TL]: cross pedestrian 2 end nr 4018067200
+[TL]: cross pedestrian 2 start nr 3984496384
+[TL]: cross pedestrian 2 end nr 3984496384
+[TL]: cross pedestrian 2 start nr 3967710976
+[TL]: cross pedestrian 2 start nr 4001281792
+[TL]: cross pedestrian 2 end nr 4001281792
+[TL]: cross vehicle 3 start nr 4110386944
+[TL]: cross pedestrian 2 end nr 3959318272
+[TL]: cross vehicle 3 end nr 4068423424
+[TL]: cross vehicle 3 end nr 4093601536
+[TL]: cross vehicle 3 end nr 4110386944
+[TL]: cross vehicle 3 end nr 4118779648
+[TL]: cross pedestrian 2 end nr 3967710976
+[TL]: cross vehicle 1 start nr 4026459904
+[TL]: cross vehicle 1 start nr 4051638016
+[TL]: cross vehicle 1 end nr 4051638016
+[TL]: cross vehicle 1 end nr 4026459904
+[TL]: cross pedestrian 2 start nr 3934140160
+[TL]: cross pedestrian 2 end nr 3934140160
+[TL]: cross pedestrian 2 start nr 3900569344
+[TL]: cross pedestrian 2 start nr 3917354752
+[TL]: cross pedestrian 2 end nr 3917354752
+[TL]: cross vehicle 3 start nr 4043245312
+[TL]: cross pedestrian 2 start nr 3950925568
+[TL]: cross pedestrian 2 end nr 3950925568
+[TL]: cross pedestrian 2 start nr 3908962048
+[TL]: cross pedestrian 2 end nr 3908962048
+[TL]: cross pedestrian 2 end nr 3900569344
+[TL]: cross vehicle 3 end nr 4043245312
