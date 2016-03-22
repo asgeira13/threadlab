@@ -72,7 +72,6 @@ void spawn_vehicle(thread_info *arg)
 
 void *vehicles(void *arg)
 {
-    
     thread_info *info = arg;
     
     // Each thread needs to call these functions in this order
@@ -88,24 +87,25 @@ void *vehicles(void *arg)
     V(&light_mutex);
     
     P(&mutexv_arr[place-1]);
-    
-    
+    P(&thread_mutex);
     vehicle_drive(info);
     vehicle_leave(info);
     v_head++;
     sensor++;
+
     if(sensor >= K || v_head == v_tail)
     {
-	fprintf(stdout,"\n\nentered vehicle! sensor = %d, v_head = %d, v_tail = %d \n\n",sensor, p_head, p_tail);
+	//fprintf(stdout,"\n\nentered vehicle! sensor = %d, v_head = %d, v_tail = %d \n\n",sensor, p_head, p_tail);
 	sensor = 0;
-	V(&mutexp_arr[p_head]);
+	if(p_head < 20)
+	    V(&mutexp_arr[p_head]);
     }
-    else{
+    else if(v_head < 20){
 	V(&mutexv_arr[v_head]);
 //	fprintf(stdout,"\n\n allow vehicle nr: %d to cross, sensor says %d\n\n", v_head, sensor);
     }
     
-    
+    V(&thread_mutex);    
     
     
     return NULL;
@@ -128,22 +128,24 @@ void *pedestrians(void *arg)
     V(&light_mutex);
     
     P(&mutexp_arr[place-1]);
-    
+    P(&thread_mutex);
     pedestrian_walk(info);
     pedestrian_leave(info);
     p_head++;
     sensor++;
+
     if(sensor ==  K || p_head == p_tail)
     {
-//	fprintf(stdout,"\n\nentered pedestrian! sensor = %d, p_head = %d, p_tail = %d \n\n",sensor, p_head, p_tail);
+	//fprintf(stdout,"\n\nentered pedestrian! sensor = %d, p_head = %d, p_tail = %d \n\n",sensor, p_head, p_tail);
 	sensor = 0;
-	V(&mutexv_arr[v_head]);
+	if(v_head < 20)
+	    V(&mutexv_arr[v_head]);
     }
-    else{
+    else if(p_head < 20){
 	//	fprintf(stdout,"\n\n allow pedestrian nr: %d to cross,tail says %d sensor says %d\n\n", p_head, p_tail, sensor);
 	V(&mutexp_arr[p_head]);
     }    
-
+    V(&thread_mutex);
     return NULL;
 }
 
@@ -156,6 +158,10 @@ void clean()
     for(int i = 0; i < num_vehicles; i++) {
 	Pthread_join(vehicle_thread[i], NULL);
     }
+    free(mutexp_arr);
+    free(mutexv_arr);
+    free(pedestrian_thread);
+    free(vehicle_thread);
 }
 
 
