@@ -6,12 +6,6 @@ int K;
 int num_vehicles;
 int num_pedestrians;
 
-int v_arr [20];
-int p_arr [20];
-
-int n = 5;
-int j = 0;
-
 int v_head = 0;
 int v_tail = 0;
 
@@ -29,8 +23,6 @@ sem_t * mutexv_arr; // arrays that store semophores for individual vehicles and 
 sem_t * mutexp_arr; // these help with deciding when to let them through
 sem_t light_mutex;
 sem_t thread_mutex;// binary sempaphore for locking
-sem_t red_vehicle;
-sem_t red_pedestrian;
 
 pthread_t *pedestrian_thread;
 pthread_t *vehicle_thread;
@@ -41,8 +33,7 @@ void init()
 {
     sem_init(&light_mutex, 0, 1);
     sem_init(&thread_mutex, 0, 1);
-    //sem_init(&red_vehicle, 0, 0);
-    //sem_init(&red_pedestrian, 0, 5);
+
     pedestrian_thread = malloc(sizeof(pthread_t) * num_pedestrians);
     vehicle_thread = malloc(sizeof(pthread_t) * num_vehicles);
     mutexv_arr = malloc(sizeof(sem_t) * num_vehicles);

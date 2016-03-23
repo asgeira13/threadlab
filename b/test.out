@@ -1,0 +1,191 @@
+5 20 20
+[TL]: Starting up the Traffic Controllatron with 20 vehicles and 20 pedestrians.
+[TL]: wait 0 0 queue_nr 1
+[TL]: wait 1 0 queue_nr 1
+[TL]: cross vehicle 1 start nr 0
+[TL]: wait 0 1 queue_nr 2
+[TL]: wait 3 1 queue_nr 1
+[TL]: cross vehicle 1 end nr 0
+entered vertical vehicle
+entered vehicle vertical! sensor = 1, v_head = 1, v_tail = 0 
+vehicle exited
+[TL]: cross vehicle 3 start nr 1
+[TL]: wait 0 2 queue_nr 3
+[TL]: wait 1 2 queue_nr 2
+[TL]: wait 2 3 queue_nr 1
+[TL]: wait 3 3 queue_nr 2
+[TL]: cross vehicle 3 end nr 1
+allow horizontal vehicle nr: 1 to cross,tail says 1,  sensor says 1
+vehicle exited
+[TL]: cross vehicle 3 start nr 3
+[TL]: wait 0 4 queue_nr 4
+[TL]: wait 3 4 queue_nr 3
+[TL]: wait 0 5 queue_nr 5
+[TL]: wait 1 5 queue_nr 3
+[TL]: cross vehicle 3 end nr 3
+allow horizontal vehicle nr: 2 to cross,tail says 2,  sensor says 2
+vehicle exited
+[TL]: cross vehicle 3 start nr 4
+[TL]: wait 0 6 queue_nr 6
+[TL]: wait 1 6 queue_nr 4
+[TL]: wait 2 7 queue_nr 2
+[TL]: wait 3 7 queue_nr 4
+[TL]: wait 0 8 queue_nr 7
+[TL]: wait 1 8 queue_nr 5
+[TL]: cross vehicle 3 end nr 4
+allow horizontal vehicle nr: 3 to cross,tail says 3,  sensor says 3
+vehicle exited
+[TL]: cross vehicle 3 start nr 7
+[TL]: wait 0 9 queue_nr 8
+[TL]: wait 3 9 queue_nr 5
+[TL]: wait 0 10 queue_nr 9
+[TL]: wait 1 10 queue_nr 6
+[TL]: cross vehicle 3 end nr 7
+allow horizontal vehicle nr: 4 to cross,tail says 4,  sensor says 4
+vehicle exited
+[TL]: cross vehicle 3 start nr 9
+[TL]: wait 0 11 queue_nr 10
+[TL]: wait 3 11 queue_nr 6
+[TL]: wait 2 12 queue_nr 3
+[TL]: wait 1 12 queue_nr 7
+[TL]: cross vehicle 3 end nr 9
+entered vehicle horizontal! sensor = 5, head = 5, tail = 5  
+vehicle exited
+[TL]: cross pedestrian 0 start nr 0
+[TL]: wait 0 13 queue_nr 11
+[TL]: wait 3 13 queue_nr 7
+[TL]: wait 0 14 queue_nr 12
+[TL]: wait 3 14 queue_nr 8
+[TL]: wait 2 15 queue_nr 4
+[TL]: wait 3 15 queue_nr 9
+[TL]: wait 2 16 queue_nr 5
+[TL]: wait 3 16 queue_nr 10
+[TL]: wait 0 17 queue_nr 13
+[TL]: wait 3 17 queue_nr 11
+[TL]: cross pedestrian 0 end nr 0
+allow vertical  pedestrian nr: 1 to cross,tail says 12 sensor says 1
+[TL]: cross pedestrian 0 start nr 1
+[TL]: wait 2 18 queue_nr 6
+[TL]: wait 1 18 queue_nr 8
+[TL]: wait 0 19 queue_nr 14
+[TL]: wait 1 19 queue_nr 9
+[TL]: cross pedestrian 0 end nr 1
+allow vertical  pedestrian nr: 2 to cross,tail says 13 sensor says 2
+[TL]: cross pedestrian 0 start nr 2
+[TL]: cross pedestrian 0 end nr 2
+allow vertical  pedestrian nr: 3 to cross,tail says 13 sensor says 3
+[TL]: cross vehicle 1 start nr 2
+[TL]: cross vehicle 1 end nr 2
+entered vertical vehicle
+allow vertical vehicle nr: 2 to cross, tail says 8,  sensor says 1
+vehicle exited
+[TL]: cross vehicle 1 start nr 5
+[TL]: cross vehicle 1 end nr 5
+entered vertical vehicle
+allow vertical vehicle nr: 3 to cross, tail says 8,  sensor says 2
+vehicle exited
+[TL]: cross vehicle 1 start nr 6
+[TL]: cross vehicle 1 end nr 6
+entered vertical vehicle
+allow vertical vehicle nr: 4 to cross, tail says 8,  sensor says 3
+vehicle exited
+[TL]: cross vehicle 1 start nr 8
+[TL]: cross vehicle 1 end nr 8
+entered vertical vehicle
+allow vertical vehicle nr: 5 to cross, tail says 8,  sensor says 4
+vehicle exited
+[TL]: cross vehicle 1 start nr 10
+[TL]: cross vehicle 1 end nr 10
+entered vertical vehicle
+entered vehicle vertical! sensor = 5, v_head = 6, v_tail = 8 
+vehicle exited
+[TL]: cross pedestrian 0 start nr 4
+[TL]: cross pedestrian 0 end nr 4
+allow vertical  pedestrian nr: 4 to cross,tail says 13 sensor says 4
+[TL]: cross pedestrian 0 start nr 5
+[TL]: cross pedestrian 0 end nr 5
+entered pedestrian vertical! sensor = 5, p_head = 5, p_tail = 13 
+[TL]: cross vehicle 3 start nr 11
+[TL]: cross vehicle 3 end nr 11
+allow horizontal vehicle nr: 6 to cross,tail says 10,  sensor says 1
+vehicle exited
+[TL]: cross vehicle 3 start nr 13
+[TL]: cross vehicle 3 end nr 13
+allow horizontal vehicle nr: 7 to cross,tail says 10,  sensor says 2
+vehicle exited
+[TL]: cross vehicle 3 start nr 14
+[TL]: cross vehicle 3 end nr 14
+allow horizontal vehicle nr: 8 to cross,tail says 10,  sensor says 3
+vehicle exited
+[TL]: cross vehicle 3 start nr 15
+[TL]: cross vehicle 3 end nr 15
+allow horizontal vehicle nr: 9 to cross,tail says 10,  sensor says 4
+vehicle exited
+[TL]: cross vehicle 3 start nr 16
+[TL]: cross vehicle 3 end nr 16
+entered vehicle horizontal! sensor = 5, head = 10, tail = 10  
+vehicle exited
+[TL]: cross pedestrian 2 start nr 3
+[TL]: cross pedestrian 2 end nr 3
+allow horizontal pedestrian nr: 1 to cross,tail says 5 sensor says 1
+[TL]: cross pedestrian 2 start nr 7
+[TL]: cross pedestrian 2 end nr 7
+allow horizontal pedestrian nr: 2 to cross,tail says 5 sensor says 2
+[TL]: cross pedestrian 2 start nr 12
+[TL]: cross pedestrian 2 end nr 12
+allow horizontal pedestrian nr: 3 to cross,tail says 5 sensor says 3
+[TL]: cross pedestrian 2 start nr 15
+[TL]: cross pedestrian 2 end nr 15
+allow horizontal pedestrian nr: 4 to cross,tail says 5 sensor says 4
+[TL]: cross pedestrian 2 start nr 16
+[TL]: cross pedestrian 2 end nr 16
+entered pedestrian horizontal! sensor = 5, p_head = 5, p_tail = 5 
+[TL]: cross vehicle 1 start nr 12
+[TL]: cross vehicle 1 end nr 12
+entered vertical vehicle
+allow vertical vehicle nr: 7 to cross, tail says 8,  sensor says 1
+vehicle exited
+[TL]: cross vehicle 1 start nr 18
+[TL]: cross vehicle 1 end nr 18
+entered vertical vehicle
+allow vertical vehicle nr: 8 to cross, tail says 8,  sensor says 2
+vehicle exited
+[TL]: cross pedestrian 0 start nr 6
+[TL]: cross pedestrian 0 end nr 6
+allow vertical  pedestrian nr: 6 to cross,tail says 13 sensor says 1
+[TL]: cross pedestrian 0 start nr 8
+[TL]: cross pedestrian 0 end nr 8
+allow vertical  pedestrian nr: 7 to cross,tail says 13 sensor says 2
+[TL]: cross pedestrian 0 start nr 9
+[TL]: cross pedestrian 0 end nr 9
+allow vertical  pedestrian nr: 8 to cross,tail says 13 sensor says 3
+[TL]: cross pedestrian 0 start nr 10
+[TL]: cross pedestrian 0 end nr 10
+allow vertical  pedestrian nr: 9 to cross,tail says 13 sensor says 4
+[TL]: cross pedestrian 0 start nr 11
+[TL]: cross pedestrian 0 end nr 11
+entered pedestrian vertical! sensor = 5, p_head = 10, p_tail = 13 
+[TL]: cross vehicle 1 start nr 19
+[TL]: cross vehicle 1 end nr 19
+entered vertical vehicle
+entered vehicle vertical! sensor = 3, v_head = 9, v_tail = 8 
+vehicle exited
+[TL]: cross pedestrian 2 start nr 18
+[TL]: cross pedestrian 2 end nr 18
+entered pedestrian horizontal! sensor = 1, p_head = 6, p_tail = 5 
+[TL]: cross vehicle 3 start nr 17
+[TL]: cross vehicle 3 end nr 17
+entered vehicle horizontal! sensor = 1, head = 11, tail = 10  
+vehicle exited
+[TL]: cross pedestrian 0 start nr 13
+[TL]: cross pedestrian 0 end nr 13
+allow vertical  pedestrian nr: 11 to cross,tail says 13 sensor says 1
+[TL]: cross pedestrian 0 start nr 14
+[TL]: cross pedestrian 0 end nr 14
+allow vertical  pedestrian nr: 12 to cross,tail says 13 sensor says 2
+[TL]: cross pedestrian 0 start nr 17
+[TL]: cross pedestrian 0 end nr 17
+allow vertical  pedestrian nr: 13 to cross,tail says 13 sensor says 3
+[TL]: cross pedestrian 0 start nr 19
+[TL]: cross pedestrian 0 end nr 19
+entered pedestrian vertical! sensor = 4, p_head = 14, p_tail = 13 

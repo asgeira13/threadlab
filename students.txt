@@ -5,8 +5,8 @@ provide your team information in below.
        Format!
 
  === User information ===
- Group: 
- User 1: 
- SSN: X
- User 2: 
- SSN: X
+ Group: Thread Lightly
+ User 1: Asgeir Atlason
+ SSN: 2303882299
+ User 2: Olafur Kari Sigurbjornsson
+ SSN: 2611872569
